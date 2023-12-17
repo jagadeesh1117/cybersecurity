@@ -18,5 +18,4 @@ private_key = (d, n)  # Replace with the actual private key
 decrypted_message = decrypt(msg2, private_key)
 file_out = open(encrypted_file, "w+")
 file_out.write(decrypted_message)
-print("Decrypted Message:", decrypted_message)
 file_out.close()
