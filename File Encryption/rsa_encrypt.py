@@ -19,5 +19,4 @@ for i in encrypted_message:
 msg = msg[:-1]
 file_out = open(file_name, "w+")
 file_out.write(msg)
-print("Encrypted Message:", msg)
 file_out.close()
