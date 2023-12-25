@@ -45,5 +45,5 @@ def monitor_directory(directory_path):
         time.sleep(5)  # Adjust the interval between checks as needed
 
 # Example usage
-directory_to_monitor = '/Users/jagadeeshchowdary/Desktop/desktop/desktop/monitor'
+directory_to_monitor = '/path/to/file'
 monitor_directory(directory_to_monitor)
