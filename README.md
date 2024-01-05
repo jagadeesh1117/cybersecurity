@@ -7,6 +7,7 @@ To get started with any of the projects, navigate to the respective project dire
 1. Network Scanner  -  This Python code scans through the given network domain and lists out the active devices with their respective IP addresses and MAC addresses.
 2. File encryption  -  It has 3 Python programs. This is a file encryption technique using the RSA algorithm to ensure security. The first code is to generate key pairs. The second code is an encryption program and upon running it, it requires the public key of the receiver and the path to the file. The third code is for decryption. This requires the receiver's private key pair and file path. This file encryption process encrypts file contents and replaces the file contents into the file. The same happens for decryption, it replaces the cipher text and writes original text inside the file.
 3. File Integrity Monitor  -  The code continuously monitors the specified directory, detecting file creations, modifications, and deletions based on changes in file hashes. It provides messages for each type of change without revealing the file contents in the case of modifications, ensuring file integrity monitoring.
+4. Malware Scanner  -  This Python program demonstrates how to use the VirusTotal API to scan a file and determine if it is malicious or clean. The program utilizes the VirusTotal API to submit a file for scanning and retrieves the scan report.
 ## Contact
 
 Please don't hesitate to reach out if you have any questions or suggestions regarding this repository. You can contact me at jagadeeshbittu999@gmail.com.
